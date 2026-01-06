@@ -1,0 +1,61 @@
+# Window focus
+alt - h : yabai -m window --focus west
+alt - j : yabai -m window --focus south
+alt - k : yabai -m window --focus north
+alt - l : yabai -m window --focus east
+
+# Swap windows
+shift + alt - h : yabai -m window --swap west
+shift + alt - j : yabai -m window --swap south
+shift + alt - k : yabai -m window --swap north
+shift + alt - l : yabai -m window --swap east
+
+# Move windows
+shift + alt + ctrl - h : yabai -m window --warp west
+shift + alt + ctrl - h : yabai -m window --warp south
+shift + alt + ctrl - h : yabai -m window --warp north
+shift + alt + ctrl - h : yabai -m window --warp east
+
+# Rotate window layout
+alt - r : yabai -m space --rotate 90
+
+# Full screen
+alt - f : yabai -m window --toggle zoom-fullscreen
+
+# Minimize window
+alt - m : yabai -m window --minimize
+
+# Close window
+alt - x : yabai -m window --close
+
+# Set/unset window space
+alt - g : yabai -m space --toggle padding; yabai -m space --toggle gap
+
+# Float window to screen center / unfloat window
+alt - t : yabai -m window --toggle float;\
+          yabai -m window --grid 4:4:1:1:2:2
+
+# Modify window split method
+alt - e : yabai -m window --toggle split
+
+# Reset window layout
+shift + alt - 0 : yabai -m space --balance
+
+# Move window to specific monitor
+shift + alt - 1 : yabai -m window --space 1; yabai -m display --focus 1
+shift + alt - 2 : yabai -m window --space 2; yabai -m display --focus 2
+shift + alt - 3 : yabai -m window --space 3; yabai -m display --focus 3
+shift + alt - 4 : yabai -m window --space 4; yabai -m display --focus 4
+shift + alt - 5 : yabai -m window --space 5; yabai -m display --focus 5
+shift + alt - 6 : yabai -m window --space 6; yabai -m display --focus 6
+shift + alt - 7 : yabai -m window --space 7; yabai -m display --focus 7
+shift + alt - 8 : yabai -m window --space 8; yabai -m display --focus 8
+shift + alt - 9 : yabai -m window --space 9; yabai -m display --focus 9
+
+# Increase window size
+shift + alt - w : yabai -m window --resize top:0:-20
+shift + alt - d : yabai -m window --resize left:-20:0
+
+# Decrease window size
+shift + alt - s : yabai -m window --resize bottom:0:-20
+shift + alt - a : yabai -m window --resize top:0:20
