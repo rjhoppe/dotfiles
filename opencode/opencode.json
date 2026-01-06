@@ -21,8 +21,7 @@
       "models": {
         "qwen3:4b-instruct-2507-q4_K_M": {
           "id": "qwen3:4b-instruct-2507-q4_K_M",
-          "name": "Qwen 3 (Local)",
-          "supportsFuntions": true 
+          "name": "Qwen 3 (Local)"
         }
       }
     }
