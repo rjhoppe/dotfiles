@@ -10,4 +10,5 @@ This repository contains my personal dotfiles and configurations for various too
 - **terminal**: Terminal emulator configurations
 - **tmux**: Tmux configurations
 - **window**: Window manager configurations
+- **opencode**: OpenCode config files
 
